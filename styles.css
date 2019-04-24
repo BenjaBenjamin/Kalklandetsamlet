@@ -6,66 +6,12 @@
 
     }
 */
-.elementor-image {}
 
-.elementor-heading-title {
-    width: 17vw;
-    background: #39728D;
-    border: solid 4px grey;
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-}
-
-h1 {
-    font-family: "LimeStone", serif;
-    width: 20vw;
-    background: #39728D;
-    border: solid 4px grey;
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-
-}
-
-h2 {
-    font-family: "LimeStone", serif;
-    width: 20vw;
-    background: #39728D;
-    border: solid 4px grey;
-    border-radius: 10px;
-    padding: 5px;
-    color: white;
-}
-
-p {
-    font-family: "LimeStone", serif;
-}
-
-.splash img {
+/*
+.splash_mobile img {
     width: 100%;
 }
-
-.wp-image-47 {
-    margin: 2vw;
-}
-
-.overskrift {
-    margin-left: 2vw;
-}
-
-.ting {
-    margin-left: 5vw;
-}
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+*/
 
 li a:hover,
 .dropdown:hover .dropbtn {
@@ -100,6 +46,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 .sidenav {
     height: 100%;
@@ -146,9 +93,11 @@ li.dropdown {
     margin-left: 50px;
 }
 
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     /*    width: 10vw;*/
     /*        padding: 10px;*/
     /*    width: 35vw;*/
@@ -156,8 +105,9 @@ li.dropdown {
 }
 
 .grid-container img {
-    width: 43vw;
+    width: 100%;
     height: auto;
+    /*    height: 12vw;*/
 }
 
 .grid-item {
@@ -188,14 +138,15 @@ li.dropdown {
 
 .openbtn {
     /*    position: fixed;*/
-    top: 0;
+    top: -7vw;
     font-size: 40px;
     cursor: pointer;
     margin-left: 2vw;
     margin-top: 7vw;
     border-radius: 2vw;
-    position: fixed;
+    position: relative;
     visibility: hidden;
+
 }
 
 
@@ -205,6 +156,9 @@ li.dropdown {
     padding: 20px;
 }
 */
+
+
+
 
 .container1 {
     display: flex;
@@ -224,10 +178,24 @@ li.dropdown {
 
 /* The side navigation menu above */
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: auto;
+
+}
+
+
+
+
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*    position: relative;*/
+
+    /*    margin: 1rem 2rem;*/
     /*    display: none;*/
 
 }
@@ -255,7 +223,7 @@ nav ul {
 nav ul li {
 
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #39728D;
 }
 
 nav ul li:last-child {
@@ -303,6 +271,10 @@ nav ul li a:hover {
     margin: 5vw;
 }
 
+.wp-image-177 {
+    /*    display: none;*/
+}
+
 
 /*Footer*/
 footer {
@@ -332,18 +304,18 @@ footer p {
     margin: 2vw;
 }
 
+
+
 .some img {
     width: 15.5vw;
     /*    height: 4.5;*/
     margin: 2vw;
 }
 
+/*.kontakt p {}*/
 
-/* undervisning */
 
-.elementor-widget-container{
-    width: 20vw;
-}
+
 
 
 
