@@ -130,6 +130,7 @@ li.dropdown {
     color: white;
     display: block;
     transition: 0.3s;
+    font-family: 'Lato', sans-serif;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -272,6 +273,7 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.4rem;
     letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
 }
 
 nav ul li a:hover {
