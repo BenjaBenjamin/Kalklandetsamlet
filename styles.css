@@ -240,6 +240,7 @@ nav ul li a {
     font-weight: 600;
     font-size: 1.4rem;
     letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
 }
 
 nav ul li a:hover {
@@ -368,6 +369,7 @@ footer p {
         font-size: 1.5rem;
         text-align: center;
         position: relative;
+        font-family: 'Lato', sans-serif;
         /*        top: 10vw;*/
     }
 
@@ -452,6 +454,7 @@ footer p {
 
     .sidenav a {
         font-size: 18px;
+        font-family: 'Lato', sans-serif;
     }
 
     nav {

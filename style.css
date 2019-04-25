@@ -18,7 +18,7 @@
 }
 
 h1 {
-    font-family: "LimeStone", serif;
+    font-family: 'Lato', sans-serif;
     width: 20vw;
     background: #39728D;
     border: solid 4px grey;
@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-    font-family: "LimeStone", serif;
+    font-family: 'Lato', sans-serif;
     width: 20vw;
     background: #39728D;
     border: solid 4px grey;
@@ -39,7 +39,7 @@ h2 {
 }
 
 p {
-    font-family: "LimeStone", serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .splash img {
